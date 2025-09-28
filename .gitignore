@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+*.env
+*.venv
+myvenv/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.swp
+*.tmp
+*.pid.lock
+
+# Redis dump
+dump.rdb
+
+# Postgres data (if you mount volumes)
+postgres_data/
+redis_d_
